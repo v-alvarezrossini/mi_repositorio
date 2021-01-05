@@ -1,0 +1,237 @@
+/* BEM INICIO */
+/* BEM BIO */
+/* BEM GALERIA */
+/*BEM CONTACTO */
+#Inicio {
+	background-image: url(Media/fondorosas.jpg);
+}
+.Menudenavegacion_Inicio {
+	word-spacing: 100px;
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 50px;
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+.BloqueInicio_Nombre {
+	text-align: center;
+	margin-top: 200px;
+}
+.BloqueInicio_Descripcion {
+	text-align: center;
+}
+.Redes_Inicio {
+	margin-top: 319px;
+	background-color: black;
+	margin-bottom: 0px;
+	height: 25px;
+	img {
+		height: 20px;
+	}
+}
+.Menudenavegacion_Bio {
+	word-spacing: 56px;
+	font-family: "Montserrat";
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 30px;
+	a {
+		color: black;
+		text-decoration: none;
+	}
+}
+.Header {
+	font-size: 85px;
+	font-family: "Montserrat";
+	font-weight: 900;
+	text-align: left;
+	color: black;
+	width: 650px;
+	margin-left: 75px;
+}
+.Bio_Titulo {
+	width: 178px;
+	font-family: "Montserrat";
+	margin-left: 90px;
+	margin-top: 80px;
+}
+.Bio_Cuerpo {
+	display: flex;
+	flex-direction: row;
+}
+.Bio_Retrato {
+	margin-left: 25px;
+	margin-top: 30px;
+}
+.Bio_Parrafo {
+	font-family: "Montserrat";
+	font-size: 20px;
+	margin-top: 36px;
+	margin-right: 10px;
+	margin-left: 60px;
+}
+.Bio_Redes {
+	margin-top: 90px;
+	width: auto;
+	background-color: black;
+	margin-bottom: 0px;
+	img {
+		width: 20px;
+	}
+}
+.Menudenavegacion_Galeria {
+	word-spacing: 100px;
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 50px;
+}
+.obra {
+	margin-left: 80px;
+	margin-top: 40px;
+	font-weight: 600;
+	font-family: "Montserrat";
+}
+.portfolio {
+	padding: 7rem 0;
+}
+.cuadros {
+	margin-left: 125px;
+	display: grid;
+	grid-template-columns: repeat(4, 220px);
+	grid-template-rows: repeat(4, 270px);
+	grid-column-gap: 80px;
+	grid-row-gap: 20px;
+	grid-column-gap: 60px;
+	width: 262px;
+	height: 262px;
+	transform: scale(1.1);
+	filter: drop-shadow(4px 4px 4px #9ea0a3);
+}
+.item {
+	border: none;
+	margin-bottom: 30px;
+	.item-wrap {
+		display: block;
+		position: relative;
+		overflow: hidden;
+		&:after {
+			z-index: 2;
+			position: absolute;
+			content: "";
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0, 0, 0, 0.4);
+			visibility: hidden;
+			opacity: 0;
+			transition: .3s all ease-in-out;
+		}
+		img {
+			transition: .3s transform ease;
+			transform: scale(1);
+		}
+		>.work-info {
+			position: absolute;
+			top: 50%;
+			width: 100%;
+			text-align: center;
+			z-index: 3;
+			transform: translateY(-50%);
+			color: #fff;
+			opacity: 0;
+			visibility: hidden;
+			margin-top: 20px;
+			transition: .3s all ease;
+			h3 {
+				font-size: 20px;
+				margin-bottom: 0;
+			}
+			span {
+				font-size: 14px;
+				text-transform: uppercase;
+				letter-spacing: .2rem;
+			}
+		}
+		&:hover {
+			text-decoration: none;
+			img {
+				transform: scale(1.05);
+			}
+			&:after {
+				opacity: 1;
+				visibility: visible;
+			}
+			.work-info {
+				margin-top: 0px;
+				opacity: 1;
+				visibility: visible;
+			}
+		}
+	}
+}
+.Galeria_Redes {
+	margin-top: 10px;
+	width: auto;
+	background-color: black;
+	margin-bottom: 0px;
+	background-attachment: inherit;
+	text-align: center;
+	img {
+		height: 25px;
+		width: 25px;
+		background-color: black;
+	}
+}
+#Contacto {
+	background-image: url("Media/fondo%20inicio%202.jpg");
+}
+.Contacto_menudenavegacion {
+	word-spacing: 100px;
+	color: black;
+	font-size: 18px;
+	float: right;
+	margin-right: 15px;
+	margin-top: 50px;
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}
+.Contacto_redes {
+	margin-top: 120px;
+	width: auto;
+	background-color: black;
+	margin-bottom: 0px;
+	background-attachment: inherit;
+	text-align: center;
+	img {
+		height: 25px;
+		width: 25px;
+		background-color: none;
+		text-align: center;
+	}
+.Contacto_Titulo {
+	margin-left: 75px;
+	margin-top: 70px;
+}
+.Contacto_Formulario {
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+	margin-left: 40px;
+	width: 500px;
+	height: 240px;
+	padding: 60px 20px 20px 43px;
+	align-content: center;
+}
+
+    

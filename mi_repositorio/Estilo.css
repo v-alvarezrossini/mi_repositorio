@@ -1,0 +1,645 @@
+
+/* BEM INICIO */
+
+
+#Inicio {
+    background-image: url(Media/fondorosas.jpg);
+}
+
+
+@media only screen and (min-width: 600px) {
+
+.Menudenavegacion_Inicio {
+    word-spacing: 40px;
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+        margin-top: 50px;
+    }
+    .BloqueInicio_Nombre {
+    text-align: center;
+    margin-top: 200px;
+}
+    .Redes_Inicio {
+    margin-top: 319px;
+    background-color: black;
+    margin-bottom: 0px;
+    height: 25px;
+    text-align: center;
+}
+    
+    .Redes_Inicio img{
+    height: 20px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+.Menudenavegacion_Inicio {
+    word-spacing: 10px;
+    color: black;
+    font-size: 16px;
+    float: right;
+    margin-right: 15px;
+        margin-top: 50px;
+    }
+    .BloqueInicio_Nombre {
+    text-align: center;
+    margin-top: 200px;
+        font-size: 25px;
+}
+    .BloqueInicio_Descripcion {
+        font-size: 15px;
+    }
+      
+    .Redes_Inicio {
+    margin-top: 340px;
+    background-color: black;
+    margin-bottom: 0px;
+    height: 25px;
+    text-align: center;
+}
+    
+    .Redes_Inicio img{
+    height: 20px;
+}
+    
+}
+
+.Menudenavegacion_Inicio a{
+    color: black;
+    text-decoration: none;
+}
+.TituloExpo {
+    font-family: "Montserrat";
+    
+}
+
+.BloqueInicio_Descripcion {
+    text-align: center;
+}
+
+
+
+
+
+/* BEM BIO */
+
+@media only screen and (min-width: 1200px) {
+
+.Menudenavegacion_Bio {
+    word-spacing: 40px;
+    font-family: "Montserrat";
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.Menudenavegacion_Bio a{
+    color: black;
+    text-decoration: none;
+}
+
+.Header {
+    font-size: 85px;
+    font-family: "Montserrat";
+    font-weight:900;
+    text-align: left;
+    color: black;
+    width: 650px;
+    margin-left: 75px;
+}
+
+.Bio_Titulo {
+    width: 178px;
+    font-family: "Montserrat";
+    margin-left: 90px;
+    margin-top: 80px;
+    
+}
+
+.Bio_Cuerpo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Bio_Retrato {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.Bio_Parrafo {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 36px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+
+.Bio_Redes {
+    margin-top: 90px;
+    width: auto;
+    background-color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.Bio_Redes img{
+    width: 20px;
+    height: 20px;
+ }
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 1200px) and (min-width: 800px) {
+
+.Menudenavegacion_Bio {
+    word-spacing: 40px;
+    font-family: "Montserrat";
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.Menudenavegacion_Bio a{
+    color: black;
+    text-decoration: none;
+}
+
+.Header {
+    font-size: 85px;
+    font-family: "Montserrat";
+    font-weight:900;
+    text-align: left;
+    color: black;
+    width: 650px;
+    margin-left: 75px;
+}
+
+.Bio_Titulo {
+    width: 178px;
+    font-family: "Montserrat";
+    margin-left: 90px;
+    margin-top: 80px;
+    
+}
+
+.Bio_Cuerpo {
+    display: flex;
+    flex-direction: row;
+}
+
+.Bio_Retrato {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.Bio_Parrafo {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 36px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+
+.Bio_Redes {
+    margin-top: 90px;
+    width: auto;
+    background-color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.Bio_Redes img{
+    width: 20px;
+    height: 20px;
+}
+    
+}
+
+
+@media only screen and (max-width: 800px) {
+    .Menudenavegacion_Bio {
+    word-spacing: 15px;
+    font-family: "Montserrat";
+    color: black;
+    font-size: 15px;
+        float: right;
+}
+
+.Menudenavegacion_Bio a{
+    color: black;
+    text-decoration: none;
+}
+
+.Header {
+    font-size: 85px;
+    font-family: "Montserrat";
+    text-align: left;
+    color: black;
+    margin-left: 75px;
+}
+
+.Bio_Titulo {
+    width: 178px;
+    font-family: "Montserrat";
+    margin-left: 90px;
+    margin-top: 80px;
+    
+}
+
+.Bio_Retrato {
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+    
+    .Bio_Retrato img{
+    text-align: center;
+}
+
+
+.Bio_Parrafo {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: 36px;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+
+.Bio_Redes {
+    margin-top: 90px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+.Bio_Redes img{
+    width: 20px;
+    height: 20px;
+}
+    
+}
+
+
+
+
+
+/* BEM GALERIA */
+
+.Menudenavegacion_Galeria {
+    word-spacing: 40px;
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.obra{
+    margin-left: 80px;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+
+
+.portfolio {
+  padding: 7rem 0;
+}
+
+
+.cuadros{ 
+    margin-left: 125px;
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(4, 270px);
+    grid-column-gap: 80px;
+    grid-row-gap: 20px;
+    grid-column-gap: 60px;
+    width: 262px;
+    height: 262px;
+    transform: scale(1.1);
+    filter: drop-shadow(4px 4px 4px #9ea0a3);
+    
+}
+
+
+
+
+.item {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.item .item-wrap {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.item .item-wrap:after {
+  z-index: 2;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s all ease-in-out;
+}
+
+.item .item-wrap img {
+  transition: .3s transform ease;
+  transform: scale(1);
+}
+
+.item .item-wrap > .work-info {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+  transform: translateY(-50%);
+  color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  margin-top: 20px;
+  transition: .3s all ease;
+}
+
+.item .item-wrap > .work-info h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.item .item-wrap > .work-info span {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.item .item-wrap:hover {
+  text-decoration: none;
+}
+
+.item .item-wrap:hover img {
+  transform: scale(1.05);
+}
+
+.item .item-wrap:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item .item-wrap:hover .work-info {
+  margin-top: 0px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+  .Galeria_Redes {
+    margin-top: 10px;
+    width: auto;
+    background-color: black;
+    margin-bottom: 0px;
+    background-attachment:inherit;
+    text-align: center;
+}
+    
+
+.Galeria_Redes img {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+}
+
+
+
+/*BEM CONTACTO */
+    
+
+
+
+#Contacto {
+    background-image: url("Media/fondo%20inicio%202.jpg");
+
+}
+
+
+.Contacto_menudenavegacion {
+    word-spacing: 40px;
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+
+.Contacto_menudenavegacion a{
+    text-decoration: none;
+    color: black;
+
+}
+   
+    
+    
+    .Contacto_redes {
+    margin-top: 120px;
+    width: auto;
+    background-color: black;
+    margin-bottom: 0px;
+    background-attachment:inherit;
+        text-align: center
+}
+    
+
+.Contacto_redes img {
+    height: 25px;
+    width: 25px;
+    background-color: none;
+    text-align: center;
+}
+
+
+    
+    .Contacto_Titulo {
+        margin-left: 75px;
+        margin-top: 70px;
+    }
+
+    .Contacto_Formulario {
+        background-color: black;
+        color: white;
+        margin-top: 50px;
+        margin-left: 40px;
+        width: 500px;
+        height: 240px;
+        padding: 60px 20px 20px 43px;
+        align-content: center;
+        
+    }
+
+    
+/* EXPOSICIONES */
+body {
+    font-family: "Montserrat";
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+}
+
+.Menudenavegacion_Exposiciones {
+    word-spacing: 40px;
+    color: black;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+    
+}
+
+.Menudenavegacion_Exposiciones a {
+    text-decoration: none;
+    color: black;
+    
+}
+.cuerpo ul {
+  margin: 0;
+  margin-top: 100px;
+    margin-bottom: 100px;
+  list-style: none;
+  position: relative;
+  color: black;
+  font-size: 18px;
+}
+.cuerpo ul:before {
+  content: "";
+  width: 1px;
+  height: 300px;
+  position: absolute;
+}
+.cuerpo ul li {
+  position: relative;
+  margin-left: 30px;
+  padding: 40px 20px 30px 40px;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 0 4px #f2f2f2, 0 2px 2px rgba(0, 0, 0, 0.08);
+}
+.cuerpo ul li {
+  margin-top: 60px;
+}
+.cuerpo ul li > span {
+  width: 3px;
+  height: 100%;
+  background: orange;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.cuerpo ul li > span:before, .container ul li > span:after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #ff80ee;
+  left: -5px;
+  top: 0;
+}
+.cuerpo ul li span:after {
+  top: 100%;
+}
+.cuerpo ul li > div {
+  margin-left: 10px;
+}
+.cuerpo div .title, .container div .type {
+  font-weight: 600;
+  font-size: 22px;
+}
+.cuerpo div .info {
+  font-weight: 300;
+}
+.cuerpo div > div {
+  margin-top: 5px;
+}
+.cuerpo span.number {
+  height: 100%;
+}
+.cuerpo span.number span {
+  position: absolute;
+  font-size: 14px;
+  left: -35px;
+  font-weight: bold;
+}
+.cuerpo span.number span:first-child {
+  top: 0;
+}
+.cuerpo span.number span:last-child {
+  top: 100%;
+}
+
+.fotoexpo1 {
+    width: 500px;
+    margin: 150px 40px 35px 79px;
+    filter: drop-shadow(4px 4px 4px #9ea0a3);
+}
+
+.fotoexpo2 {
+    width: 500px;
+     width: 500px;
+    margin: 10px 40px 35px 79px;
+    filter: drop-shadow(4px 4px 4px #9ea0a3);
+    
+}
+
+Exposiciones_Redes {
+    margin-top: 500px;
+    background-color: black;
+    
+}
+
+Exposiciones_Redes img {
+    width: 20px;
+    
+    
+}
+
+
+
